@@ -68,7 +68,7 @@ class _HomeStaggerPageState extends State<HomeStaggerPage> {
                   crossAxisCount: 4,
                   shrinkWrap: true,
                   staggeredTileBuilder: (int index) =>
-                      new StaggeredTile.count(2, index.isEven ? 2 : 1),
+                      new StaggeredTile.fit(2),
                   padding: EdgeInsets.symmetric(horizontal: 22, vertical: 18),
                   itemCount: imgProviderWatch!.imgList.length,
                   itemBuilder: (BuildContext context, int index) {
