@@ -87,7 +87,7 @@ class _HomeStaggerPageState extends State<HomeStaggerPage> {
                           borderRadius: BorderRadius.circular(12),
                           child: Image.network(
                             imgProviderWatch!.imgList[index].url ?? "",
-                            fit: BoxFit.fill,
+                            fit: BoxFit.cover,
                           ),
 
                           // "https://st2.depositphotos.com/2001755/5408/i/600/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg"),
